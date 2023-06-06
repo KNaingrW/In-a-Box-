@@ -1,0 +1,126 @@
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption{
+top: 50px;
+}
+
+.homepage{
+  width: 350px;
+  color: blue;
+  font-family: Dancing Script;
+  font-size: 27px;
+}
+h3,p{
+text-align: center;
+font-family: Dancing Script;
+font-size: 24px;
+}
+h1{
+  color: #343a40;
+}
+
+.menu{
+  display: block;
+  width: 260px;
+  height: 50px;
+  border-radius: 24.8px;
+  border: solid 2px #ff9966;
+  color: #c9a79c;
+  background-color: #fff;
+  margin: 38px auto 46px;
+  letter-spacing: 2.5px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  line-height: 46px;
+  font-size: 16px;
+}
+.fa {
+padding: 20px;
+font-size: 20px;
+width: 60px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 100%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+body{
+background-color: #c9a79c;
+}
+
+footer{
+color: #cccccc;
+}
+
+.Sign-up{
+background-color: #343a40;
+padding: 1px;
+margin-right: 10px;
+border: none;
+}
+
+.Login{
+background-color: #343a40;
+padding: 1px;
+margin-right: 10px;
+border: none;
+}
+
+.foll{
+  margin-right: 60px;
+}
+
+.ribbon-r{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: Dancing Script;
+}
+
+.ribbon span {
+  position: relative;
+  top: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.ribbon-g{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2a8000;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: Dancing Script;
+}
+

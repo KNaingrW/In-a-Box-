@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ViewDetail</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="styles/home.css">
+  <style>
+ .lead{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+ }
+
+  </style>
+  </head>
+  <body>
+     <!--Beginning of Navbar-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#" style="font-family: Dancing Script;">In a Box</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="home.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+         Menu
+        </a>
+          <div class="dropdown-menu">
+          <a class="dropdown-item" href="Recipe.html">Recipe guides</a>
+          <a class="dropdown-item" href="homeset.html">Bake at home set</a>
+          <a class="dropdown-item" href="ingredient.html">Ingredients </a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+         Other
+        </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="meal planner.html">meal planners</a>
+            <a class="dropdown-item" href="nutrition.html">nutritional information app </a>
+            <a class="dropdown-item" href="Weekly.html">selection of weekly recipe choices</a>
+            <a class="dropdown-item" href="gift.html">gift boxes for special occasions </a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About us.html">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Contact us.html">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="package.html">Package</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <button class="Sign-up">
+        <a class="btn btn-outline-danger logInBtn me-2" href="sign-up.html" type="button">Sign-up</a>
+      </button>
+      </li>
+      <li class="nav-item2">
+        <button class="Login">
+        <a class="btn btn-outline-success logInBtn me-2" href="Login.html">Login</a>
+      </button>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <!--End of Navbar-->
+  <br>
+  <!--Start of viewdetail-->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/meatballs.png" alt="Recipe Image" class="img-fluid mb-3">
+        <h1>Spaghetti and Meatballs</h1>
+        <p class="lead">Spaghetti and Meatballs is quite simple to make.  
+          No lengthy cooking required, and the sauce is made from scratch.
+          In contrary to what a lot of people think,  Spaghetti and Meatballs 
+          is not an Italian dish, but rather an Italian American invention.
+          No matter where it’s from, this recipe will put a smile on your face, 
+          and maybe a little sauce too!
+          Make sure you buy equal quantities of good pork and beef mince.  
+          It needs to have a little fat in there, go for around 15-20%
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h5>Ingredients</h5>
+        <ul class="list-group">
+          <li class="list-group-item">
+            For the Meatballs
+          <dt>¼ cup breadcrumbs</dt>
+          <dt>1lb – 450g beef and pork mince (15-20% fat)</dt>
+          <dt>1 tsp salt</dt>
+          <dt>Cracked black pepper (generous amount)</dt>
+          <dt>½ brown onion, finely chopped</dt>
+          <dt>1 garlic clove</dt>
+          <dt>½ tsp dried oregano</dt>
+          <dt>½ cup - 40g grated pecorino (plus extra for garnish)</dt>
+          <dt>¼ cup chopped parsley (keep some for garnish)</dt>
+          <dt>1 whole egg</dt>
+          <dt>1 cup olive oil</dt>
+          </li>
+          <li class="list-group-item">
+            For the sauce
+            <dt>½ brown onion, finely chopped</dt>
+            <dt>1 garlic clove</dt>
+            <dt>1 bay leaf</dt>
+            <dt>24oz – 690g passata (Tomato purée)</dt>
+            <dt>½ cup - 40g grated pecorino</dt>
+            <dt>Salt and pepper</dt>
+          </li>
+          <li class="list-group-item">
+            Pasta
+            <dt>12oz - 350g Spaghetti or Spaghettoni</dt>
+            <dt>A few fresh basil leaves (Optional)</dt>
+            <dt>Salt for water</dt>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Instructions</h2>
+        <ol>
+          <li>
+            Step 1
+          <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+            In a small saucepan on medium heat, add some olive oil
+            and half a chopped brown onion.  Cook until soft.  Add the
+            dried oregano, garlic and cook 30 seconds, turn off heat. 
+            Set aside to cool down.
+          </p>
+          </li>
+          <li>
+            Step 2
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              In a mixing bowl, add the combined minced meats, salt
+              and pepper, bread crumbs, cooked onion and garlic
+              mixture, half the grated pecorino cheese, chopped parsley
+              and one whole egg. Mix well using your hands.
+            </p>
+          </li>
+          <li>
+            Step 3
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              Add olive oil to your hands, pick up a portion of the
+              mixture and form into balls by using the palm of both your
+              hands. Aim for 58 grams each or approx. 2 ounces. Use a
+              scale for consistency, you should get close to 12-14
+              meatballs.  Roll them in flour.
+            </p>
+          </li>
+          <li>
+            Step 4
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              Add a generous amount of olive oil to a frying pan on
+              medium heat, enough to cover the bottom and a little
+              more. Once the oil is hot, place half the meatballs 
+              and brown evenly by rolling them and basting them with the
+              hot oil. They will be cooked enough in approx. 4 to 5 minutes. 
+              Once nice and brown, set them aside to rest on a
+              warm plate. If pan is small, just cook half at a time.
+            </p>
+          </li>
+          <li>
+            Step 5
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              Drain half the oil from pan and add the remaining half chopped onion,
+              1 clove of minced garlic, fry over medium heat.  Add the passata (One bottle) 
+              rinse it out with a little water and pour into pan so there’s no wastage. Season
+              with salt and pepper and add one bay leaf. Bring to a simmer. 
+              Return the meatballs to pan and cook for 30 minutes on low simmering heat. 
+              Make sure you turn them over every 6 minutes or so. If sauce is getting too thick,
+              thin it out with pasta cooking water.
+            </p>
+          </li>
+          <li>
+            Step 6
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              Meanwhile get your pasta water boiling, add salt. 
+              Once boiling, cook pasta 2 minutes less than al dente, 
+              as per instructions on packet.
+            </p>
+          </li>
+          <li>
+            Step 7
+            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+              Remove meat balls and place them on a hot plate in a warm spot.
+            </p>
+          </li>
+          <li>
+            Step 8
+          <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify; font-size: 18px;">
+            Drain pasta and add directly to the sauce.  
+            Finish cooking for two minutes in the sauce, 
+            turn off heat and add remaining grated Pecorino cheese.  
+            Mix well.Serve immediately.
+          </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">Allergic of Spaghetti and meatballs</p>
+      </div>
+      <div class="col-md-6">
+        <p class="lead">
+          Spaghetti and meatballs can contain several common allergens such as wheat/gluten, 
+          milk/dairy, eggs, soy, and tree nuts. Individuals with food allergies should carefully check the 
+          ingredients and watch for cross-contamination when dining out or preparing meals at 
+          home. It is recommended that those with allergies seek advice from medical professionals or 
+          registered dietitians for personalized guidance.
+        </p>
+      </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="lead">Nutrition of Spaghetti and meatballs</p>
+      </div>
+      <div class="col-md-6">
+        <p class="lead">
+          Spaghetti and meatballs are a tasty dish, but it can be high in calories 
+          (500-700 per serving) and carbohydrates (50-70g per serving). Meatballs are a good source of protein 
+          (20-30g per serving), but can also be high in saturated fat. The dish is relatively low in fiber 
+          (3-5g per serving). To maintain a balanced and healthy diet, it's important to be mindful of portion 
+          sizes and to include other nutrient-dense foods.
+        </p>
+      </div>
+    </div>
+    <hr>
+
+  </div>
+  <!--End of viewdetail-->
+  <!--Start of footer-->
+<br>
+  <footer>
+    <div class="jumbotron" style="background-color:  #343a40;;" >
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+           <p>
+            This Website is create by Lithan Student
+           </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
+           <p>
+            Follow and Contact us on
+            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+            <a href="http://www.twitter.com/" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.google.com/" class="fa fa-google" target="_blank"></a>
+            <a href="http://www.linkedin.com/" class="fa fa-linkedin" target="_blank"></a>
+           </p>
+          
+           </div>
+           </div>
+
+          </div>
+    <div>
+      <p style="color: #343a40;">Created on 2023</p>
+    </div>
+  </footer>
+    <!--End of footer--> 
+      
+  </body>
+</html>
